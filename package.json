@@ -1,0 +1,19 @@
+{
+  "name": "p5js-patatap-template",
+  "version": "1.0.0",
+  "description": "p5jsでpatatapらしき物を作るためのテンプレートです",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "author": "Asachuna",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/p5": "^1.4.3",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "p5": "^1.5.0"
+  }
+}
